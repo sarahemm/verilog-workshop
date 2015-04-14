@@ -16,7 +16,7 @@ end
 // every time clk goes high, display then increment i
 always @ (posedge clk) begin
   $display("i: %d", i);
-  i++;
+  i = i + 1;
 end
 
 endmodule

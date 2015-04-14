@@ -15,7 +15,7 @@ always #1 begin
   $display("a\t%02d (%b)", a, a);
   $display("b\t%02d (%b)", b, b);
   $display("not_a\t%02d (%b)\n", not_a, not_a);
-  a++;
+  a = a + 1;
 end
 
 endmodule
