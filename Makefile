@@ -6,4 +6,4 @@ all: $(OBJS)
 	iverilog -Wall -o $@ $<
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) *.vcd
