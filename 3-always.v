@@ -6,6 +6,8 @@ reg [3:0] i;
 initial begin
   clk = 1'b0;
   i = 4'b0000;
+  $dumpfile("3-always.vcd");
+  $dumpvars(0,always_example);
 end
 
 // toggle the clk signal every 10 ticks
