@@ -1,6 +1,5 @@
 module task_example;
 
-reg clk;
 reg [3:0] i;
 
 initial begin
