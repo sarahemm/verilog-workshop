@@ -1,8 +1,8 @@
-module example_module(in_param, out_param);
-  input  [3:0] in_param;
-  output [3:0] out_param;
+module example_module(in_sig, out_sig);
+  input  [3:0] in_sig;
+  output [3:0] out_sig;
   
-  assign out_param = in_param & 4'b0111;
+  assign out_sig = in_sig & 4'b0111;
 endmodule
 
 module module_example_top;
